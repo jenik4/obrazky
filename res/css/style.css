@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#jahoda{
+    width: 240px;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+.obrazek{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    transition: 1s;
+}
+.obrazek:hover{
+    transform: scale(1.2);
+}
